@@ -81,4 +81,5 @@ Uso di variabili ambiente per sicurezza delle API keys
 
 📞 Contatti
 Sono disponibile per collaborazioni, progetti e opportunità lavorative!
-LinkedIn | Email
+Email: gragnaniellofrancescom@gmail.com
+
