@@ -10,8 +10,11 @@
 <body>
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="Enter City Name" spellcheck="false">
-            <button><img src="./assets//search.png" alt=""></button>
+            <input type="text" placeholder="Enter City Name" spellcheck="false" class="input">
+            <button class="search-btn"><img src="./assets//search.png" alt=""></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
         </div>
         <div class="weather">
             <img src="./assets/rain.png" alt="" class="weather-icon">
@@ -35,7 +38,7 @@
             </div>
         </div>
     </div>
-    <script src="./script.js"></script>
+    <script  type="module" src="./script.js"></script>
 </body>
 
 </html>

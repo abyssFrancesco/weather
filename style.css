@@ -49,8 +49,9 @@ body{
     width: 16px;
 }
 .weather-icon{
-    width: 150px;
-    margin-top: 30px;
+    width: 200px;
+    height: auto;
+    margin-top: 25px;
 }
 .weather h1{
     font-size: 80px;
@@ -81,4 +82,15 @@ body{
 .humidity, .wind{
     font-size: 28px;
     margin-top: -6px;
+}
+.weather{
+    /* All'inizio non si vede niente */
+    display: none;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
